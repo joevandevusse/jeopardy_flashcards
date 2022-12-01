@@ -1,0 +1,31 @@
+run "npm start" from server to display josn
+now need to get it working on the client
+
+PERN Video: https://www.youtube.com/watch?v=w3vs4a03y3I
+Flashcards Video: https://www.youtube.com/watch?v=pKCAtlsn1Eo
+More Flashcards: https://www.youtube.com/watch?v=4qo-jDFot3c
+
+https://www.youtube.com/watch?v=w3vs4a03y3I
+
+Trivia to add:
+Airport Codes
+Broadway Plays
+
+Installed cors to get front/backend working locally simultaneously:
+https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/
+
+PostgreSQL stuff:
+select * from clues;
+select count(*) from clues;
+INSERT INTO clues (category, clue, answer, dollar_value, round, game_id, 
+  game_date, added_date) values ('GOING HOME','The Internet loves videos 
+  of these people coming home & reuniting with their dogs, like Hannah 
+  Foraker with Buddy','soldiers',200,'Jeopardy',7444,'2022-09-23','2022-09-25');
+delete from clues;
+
+Bugs:
+X Duplicate quotes issue
+X Some categories/clues are mismatched
+X Character: </i> occasionally included
+
+"Quiz Show Trainer" ?
